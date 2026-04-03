@@ -21,8 +21,13 @@ class NavButton extends StatelessWidget {
         borderRadius: .circular(50),
       ),
       child: Column(
+        mainAxisAlignment: .center,
         children: [
-          Icon(Icons.home, color: selected ? Colors.white : Colors.grey),
+          Icon(icon, color: selected ? Colors.white : Colors.grey),
+          Text(
+            text,
+            style: TextStyle(color: selected ? Colors.white : Colors.grey),
+          ),
         ],
       ),
     );

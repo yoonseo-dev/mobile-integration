@@ -39,3 +39,13 @@ StatfullWidget : 상태를 변경할 수 있는 위젯. StatelessWidget과 달�
 ---
 
 ### 3주차
+
+---
+
+### 4주차
+
+- widget/process_badge.dart
+- widget/circle_check_box.dart
+- bottom_navigation/bottom_navigation.dart
+- bottom_navigation/widget/nav_bottom.dart
+- enum/process.dart
