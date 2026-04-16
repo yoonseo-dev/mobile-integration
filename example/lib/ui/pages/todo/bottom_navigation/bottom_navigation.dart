@@ -21,16 +21,16 @@ class _BottomNavigationState extends State<BottomNavigation> {
       child: Row(
         children:
             [
-                  (text: '홈', icons: Icons.home),
-                  (text: '캘린더', icons: Icons.calendar_month),
-                  (text: '통계', icons: Icons.bar_chart),
-                  (text: '프로필', icons: Icons.person),
+                  (text: '홈', icon: Icons.home),
+                  (text: '캘린더', icon: Icons.calendar_month),
+                  (text: '통계', icon: Icons.bar_chart),
+                  (text: '프로필', icon: Icons.person),
                 ]
                 .map(
                   (e) => Expanded(
                     child: NavButton(
                       selected: e.text == '홈',
-                      icon: e.icons,
+                      icon: e.icon,
                       text: e.text,
                     ),
                   ),
